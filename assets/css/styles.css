@@ -6,7 +6,7 @@ body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-h2 {
+h2, h5 {
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
 }
@@ -35,3 +35,14 @@ footer {
   border-top: 8px solid #4aaaa5;
 }
 
+.card-title {
+  background-color: #4aaaa5;
+  color:#fff;
+  position: absolute;
+  bottom:30px;
+  width: 100%;
+}
+
+.card-body {
+  position: relative;
+}
